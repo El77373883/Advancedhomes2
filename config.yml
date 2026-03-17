@@ -1,0 +1,27 @@
+# AdvancedHomes Premium - Configuracion
+# Plugin by AdvancedHomes Team
+
+settings:
+  # Cooldown en segundos entre teleports
+  cooldown: 3
+  # Homes maximos por jugador (-1 = ilimitados)
+  max-homes: -1
+  # Delay de teleport en segundos (0 = instantaneo)
+  teleport-delay: 0
+
+messages:
+  prefix: "&8[&b&lAdvancedHomes&8] &r"
+  home-set: "&aHome &e{home} &aestablecido correctamente."
+  home-deleted: "&cHome &e{home} &celiminado."
+  home-not-found: "&cNo tienes un home llamado &e{home}&c."
+  no-homes: "&cNo tienes ningun home guardado."
+  teleporting: "&aTeletransportando a &e{home}&a..."
+  teleported: "&aLlegaste a tu home &e{home}&a."
+  cooldown: "&cDebes esperar &e{time} &csegundos antes de teletransportarte."
+  no-permission: "&cNo tienes permiso para hacer eso."
+  player-not-found: "&cJugador &e{player} &cno encontrado."
+  home-exists: "&cYa tienes un home llamado &e{home}&c. Usa /adeletehome primero."
+  reload: "&aConfiguracion recargada correctamente."
+  gui-title: "&8&lMis Homes"
+  gui-delete-lore: "&cClick derecho para eliminar"
+  gui-teleport-lore: "&aClick izquierdo para teletransportarte"

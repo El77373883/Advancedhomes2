@@ -1,0 +1,51 @@
+name: AdvancedHomes
+version: 1.0.0
+main: com.advancedhomes.AdvancedHomesPlugin
+api-version: 1.21
+description: Plugin premium de homes con GUI y cooldown
+author: AdvancedHomes Team
+prefix: AdvancedHomes
+
+commands:
+  ahome:
+    description: Teletransportarte a tu home
+    usage: /ahome <nombre>
+    permission: advancedhomes.use
+  asethome:
+    description: Establecer un home
+    usage: /asethome <nombre>
+    permission: advancedhomes.use
+  adeletehome:
+    description: Eliminar un home
+    usage: /adeletehome <nombre>
+    permission: advancedhomes.use
+  ahomelist:
+    description: Ver lista de homes (GUI)
+    usage: /ahomelist
+    permission: advancedhomes.use
+  ahomes:
+    description: Abrir GUI de homes
+    usage: /ahomes
+    permission: advancedhomes.use
+  ahometp:
+    description: Ir al home de otro jugador
+    usage: /ahometp <jugador> <home>
+    permission: advancedhomes.tp.others
+  ahomereload:
+    description: Recargar configuracion
+    usage: /ahomereload
+    permission: advancedhomes.admin
+
+permissions:
+  advancedhomes.use:
+    description: Usar comandos basicos de homes
+    default: true
+  advancedhomes.tp.others:
+    description: Teletransportarse al home de otro jugador
+    default: op
+  advancedhomes.admin:
+    description: Comandos de administrador
+    default: op
+  advancedhomes.cooldown.bypass:
+    description: Ignorar el cooldown
+    default: op
